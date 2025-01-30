@@ -1,0 +1,83 @@
+html {
+    margin-left: 3em; 
+    margin-right: 3em;
+    margin-bottom: 5em;
+}
+
+nav {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid darkorange;
+    text-align: center;
+}
+
+nav a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: darkorange;
+}
+
+nav a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: black;
+}
+
+/* I don't think I need this style.
+nav a:visited {
+    color: black;
+}
+*/
+
+h1, h2, h3, h4 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: darkorange;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 img{
+    width: 9em;
+    height: 6em;
+    padding: 0 .5em;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: darkorange;
+}
+
+#shoes {
+    width: 20em;
+    height: 25em;
+    float: left;
+    margin-right: 1em;
+}
+
+.resources ol{
+    margin: 0 auto;
+}
+
+.resources > ol {
+    list-style-type: upper-alpha;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+  height: 130px;
+  width: 100%;
+  opacity: 0.4; 
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
