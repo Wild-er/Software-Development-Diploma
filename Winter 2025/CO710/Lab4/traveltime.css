@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  :root {
+    --color-primary:#0172BA;
+    --color-secondary:#089247;
+    --color-tertiary:#ECF7FE;
+    --color-background:#CEECFE;
+    --color-white:#fff;
+    --color-black:#000;
+  }
+  
+  /* Header */
+  header {
+    display:grid;
+    grid-template-columns:auto 7rem;
+    text-align:center;
+    align-items:center;
+    margin:0% 5% 1rem 5%;
+  }
+  header a {
+    background-color:var(--color-primary);
+    color:var(--color-white);
+    padding:0.7rem 1.4rem;
+    border-radius:1.5rem;
+  }
+  header a:hover {
+    background-color:var(--color-secondary);
+  }
+
+  /* Footer */
+  footer {
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows:1fr 2fr;
+    background-image:url('images/newhampshire.jpg');
+    padding:1rem;
+    color:var(--color-black);
+  }
+  footer a {
+    color:var(--color-black)
+  }
+  footer ul {
+    list-style-type:none;
+    padding-left:0;
+  }
+  footer h3 {
+    border-bottom:0.1rem solid var(--color-primary);
+  }
+  footer .about {
+    grid-column:1;
+    grid-row:1;
+  }
+  footer .social {
+    grid-column:2;
+    grid-row:1;
+    display:flex;
+    justify-self:center;
+    align-items:flex-end;
+  }
+  footer h1 {
+    color:var(--color-primary);
+    display:flex;
+    justify-self:center;
+    align-items:flex-end;
+    text-align:center;
+    margin-bottom:2rem;
+    grid-column:2;
+    grid-row:1;
+  }
+  footer .social a {
+    display:inline-block;
+    margin:0 0.4rem;
+  }
+  footer .seminars {
+    grid-column:3;
+    grid-row:1;
+  }
+  footer .countries {
+    grid-column:3;
+    grid-row:2;
+  }
+  
